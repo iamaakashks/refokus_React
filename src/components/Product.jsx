@@ -3,7 +3,7 @@ import Button from './Button';
 
 export default function Product({products}){
     return (
-        <div className='w-full py-20 text-zinc-200 bg-zinc-600 mb-1'>
+        <div className='w-full py-20 text-zinc-200 mt-1'>
             <div className='max-w-screen-lg mx-auto flex items-center justify-between'>
                 <h1 className='text-6xl'>{products.title}</h1>
                 <div className='details w-1/3'>
