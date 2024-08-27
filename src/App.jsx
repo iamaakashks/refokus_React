@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Work from './components/Work';
 import Stripes from './components/Stripes';
+import Products from './components/Products';
 
 export default function App(){
     return (
@@ -10,6 +11,9 @@ export default function App(){
                 <Navbar />
                 <Work />
                 <Stripes />
+            </div>
+            <div className='font-["satoshi"] bg-zinc-900 w-full text-white'>
+                <Products />
             </div>
         </>
     )

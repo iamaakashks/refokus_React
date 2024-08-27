@@ -12,7 +12,7 @@ export default function Navbar(){
                         </a>)}
                 </div>
             </div>
-            <Button/>
+            <Button val={'Start a Project'}/>
         </div>
     )
 }
