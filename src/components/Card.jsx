@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaArrowRightLong } from "react-icons/fa6";
 
-export default function Card({width, start, para, topText, secondTopText}){
+export default function Card({width, start, para, topText, secondTopText, hover}){
     return (
-        <div className={`bg-zinc-800 ${width} px-5 py-6 rounded-2xl mb-10 min-h-[22rem] flex flex-col justify-between`}>
+        <div className={`${hover && "hover:bg-violet-600"} bg-zinc-800 ${width} px-5 py-6 rounded-2xl mb-10 min-h-[22rem] flex flex-col justify-between`}>
             <div className='w-full flex flex-col gap-4'>
                 <div className='flex items-center justify-between'>
                     <h3 className='text-sm'>{topText}</h3>
