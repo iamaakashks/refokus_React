@@ -18,8 +18,7 @@ export default function Card({width, start, para, topText, secondTopText, hover}
                         <h1 className='text-7xl font-medium tracking-tight mb-4'>Start a Project</h1>
                         <button className='px-4 py-1.5 border-[1px] rounded-full'>Contact Us</button>
                     </> : <p className='text-zinc-400'>Explore what drives our team</p>
-                }
-                
+                }  
             </div>
         </div>
     )

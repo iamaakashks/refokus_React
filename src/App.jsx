@@ -5,6 +5,8 @@ import Stripes from './components/Stripes';
 import Products from './components/Products';
 import Marquees from './components/Marquees';
 import Cards from './components/Cards';
+import Footer from './components/footer';
+import FooterLink from './components/FooterLink';
 
 export default function App(){
     return (
@@ -16,6 +18,8 @@ export default function App(){
                 <Products />
                 <Marquees />
                 <Cards />
+                <Footer />
+                <FooterLink />
             </div>
         </div>
     )
