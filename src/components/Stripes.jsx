@@ -11,7 +11,7 @@ export default function Stripes(){
         {url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/63c9ce90a51cd75d563689fd_Awwards-logotype-2018%201.svg", number: 11}
     ]
     return (
-        <div className='flex justify-between'>
+        <div className='flex justify-between mb-32  overflow-x-hidden'>
             {data.map((elem, index)=> (
                 <Stripe val={elem} key={index} />
             ))}
